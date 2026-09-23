@@ -36,10 +36,9 @@ class _LoginPageState extends State<LoginPage> {
           ),
           Container(
             margin: EdgeInsets.all(10),
-            child: TextField(
-              controller: txtPassword,
-              decoration: InputDecoration(hint: Text("Input password")),
-              obscureText: true,
+            child: CustomTextfield(
+              txtController: txtPassword,
+              myHint: "input password",
             ),
           ),
           Row(
