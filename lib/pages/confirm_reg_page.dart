@@ -18,6 +18,13 @@ class ConfirmRegPage extends StatelessWidget {
             "Nama " + nama,
             style: TextStyle(fontSize: 25, color: Colors.blue),
           ),
+
+          ElevatedButton(
+            onPressed: () {
+              Get.back();
+            },
+            child: Text("Oke"),
+          ),
         ],
       ),
     );
